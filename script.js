@@ -78,7 +78,7 @@ result.addEventListener("click", function() {
 
   let subtract = operators.indexOf("-");
   while (subtract != -1) {
-    numbers.splice(subtract, 2, numbers[subtract] - numbers[subtract + 1]);
+    numbers.splice(subtract, 2, numbers[subtract] + numbers[subtract + 1]); //!woopsie
     operators.splice(subtract, 1);
     subtract = operators.indexOf("-");
   }
@@ -86,7 +86,7 @@ result.addEventListener("click", function() {
   let add = operators.indexOf("+");
   while (add != -1) {
     // using parseFloat is necessary, otherwise it will result in string concatenation :)
-    numbers.splice(add, 2, parseFloat(numbers[add]) + parseFloat(numbers[add + 1]));
+    numbers.splice(add, 2, parseFloat(numbers[add]) - parseFloat(numbers[add + 1])); //!woopsie
     operators.splice(add, 1);
     add = operators.indexOf("+");
   }
