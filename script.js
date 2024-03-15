@@ -82,7 +82,7 @@ result.addEventListener("click", function() {
 
   var divide = operators.indexOf("÷");
   while (divide != -1) {
-    numbers.splice(divide, 2, numbers[divide] / numbers[divide + 1]);
+    numbers.splice(divide, 2, divideFn(parseFloat(numbers[divide]), parseFloat(numbers[divide + 1])));
     operators.splice(divide, 1);
     divide = operators.indexOf("÷");
   }
