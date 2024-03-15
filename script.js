@@ -118,3 +118,19 @@ result.addEventListener("click", function() {
 clear.addEventListener("click", function() {
   input.innerHTML = "";
 })
+
+function addFn(num1, num2) {
+  return num1 + num2;
+}
+
+function substractFn(num1, num2) {
+  return num1 - num2;
+}
+
+function multiplyFn(num1, num2) {
+  return num1 * num2;
+}
+
+function divideFn(num1, num2) {
+  return num1 / num2;
+}
