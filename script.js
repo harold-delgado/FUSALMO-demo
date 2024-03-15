@@ -65,14 +65,14 @@ result.addEventListener("click", function() {
 
   let subtract = operators.indexOf("-");
   while (subtract != -1) {
-    numbers.splice(subtract, 2, addFn(parseFloat(numbers[subtract]), parseFloat(numbers[subtract + 1])));
+    numbers.splice(subtract, 2, substractFn(parseFloat(numbers[subtract]), parseFloat(numbers[subtract + 1])));
     operators.splice(subtract, 1);
     subtract = operators.indexOf("-");
   }
 
   let add = operators.indexOf("+");
   while (add != -1) {
-    numbers.splice(add, 2, addFn(numbers[add], numbers[add + 1]));
+    numbers.splice(add, 2, addFn(parseFloat(numbers[add]), parseFloat(numbers[add + 1])));
     operators.splice(add, 1);
     add = operators.indexOf("+");
   }
