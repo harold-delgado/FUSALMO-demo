@@ -40,12 +40,15 @@ body {
   }
   
   .buttons {
-
-
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
   
   .operators {
-    
+    display: flex;
+    justify-content: space-between;
   }
   
   .operators div {
