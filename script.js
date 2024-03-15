@@ -95,7 +95,8 @@ function substractFn(num1, num2) {
 }
 
 function multiplyFn(num1, num2) {
-  throw new Error('Esta feature aun no existe! Suscribete a calculadora premium para poder obtener acceso a esta funcion');
+    return num1 * num2;
+  // throw new Error('Esta feature aun no existe! Suscribete a calculadora premium para poder obtener acceso a esta funcion');
 }
 
 function divideFn(num1, num2) {
