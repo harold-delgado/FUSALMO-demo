@@ -72,7 +72,7 @@ result.addEventListener("click", function() {
 
   let add = operators.indexOf("+");
   while (add != -1) {
-    numbers.splice(add, 2, addFn(numbers[add], numbers[add + 1]));
+    numbers.splice(add, 2, addFn(parseFloat(numbers[add]), parseFloat(numbers[add + 1])));
     operators.splice(add, 1);
     add = operators.indexOf("+");
   }
