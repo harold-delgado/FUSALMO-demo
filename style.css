@@ -1,10 +1,10 @@
 body {
-    width: 500px;
-    margin: 4% auto;
+    width: 550px;
+    margin: auto;
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 5px;
     font-size: 1.8rem;
-    background-color: #353434;
+    background-color: #6b5959;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -97,24 +97,24 @@ body {
   
   div.equal {
     display: inline-block;
-    border: 1px solid #3079ED;
+    border: 1px solid #6696e4;
     border-radius: 1px;
     width: 17%;
     text-align: center;
-    padding: 127px 10px;
-    margin: 10px 6px 10px 0;
+    padding: 120px 10px;
+    margin:auto;
     vertical-align: top;
     cursor: pointer;
     color: #FFF;
-    background-color: #4d90fe;
+    background-color: #4dfeab;
     transition: all .2s ease-in-out;
   }
   
   div.equal:hover {
-    background-color: #307CF9;
+    background-color: #abdab3;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-color: #1857BB;
+    border-color: #18bb49;
   }
   
   div.equal:active {
