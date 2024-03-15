@@ -106,7 +106,7 @@ body {
     vertical-align: top;
     cursor: pointer;
     color: #FFF;
-    background-color: #4d90fe;
+    background-color: hsl(117, 99%, 65%);
     transition: all .2s ease-in-out;
   }
   
