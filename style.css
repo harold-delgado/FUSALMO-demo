@@ -1,6 +1,6 @@
 body {
     width: 500px;
-    margin: 4% auto;
+    margin: 2% auto;
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 5px;
     font-size: 1.8rem;
@@ -47,7 +47,7 @@ body {
     display: inline-block;
     border: 1px solid #bbb;
     border-radius: 1px;
-    width: 80px;
+    width: 60px;
     text-align: center;
     padding: 10px;
     margin: 20px 4px 10px 0;
