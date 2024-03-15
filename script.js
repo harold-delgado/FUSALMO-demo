@@ -95,7 +95,7 @@ function substractFn(num1, num2) {
 }
 
 function multiplyFn(num1, num2) {
-  
+  return num1*num2;
 }
 
 function divideFn(num1, num2) {
