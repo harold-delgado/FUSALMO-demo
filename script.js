@@ -89,7 +89,7 @@ result.addEventListener("click", function() {
 
   var multiply = operators.indexOf("×");
   while (multiply != -1) {
-    numbers.splice(multiply, 2, numbers[multiply] * numbers[multiply + 1]);
+    numbers.splice(multiply, 2, multiplyFn(parseFloat(numbers[multiply]), parseFloat(numbers[multiply + 1])));
     operators.splice(multiply, 1);
     multiply = operators.indexOf("×");
   }
