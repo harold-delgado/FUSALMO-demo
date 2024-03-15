@@ -65,7 +65,7 @@ result.addEventListener("click", function() {
 
   let subtract = operators.indexOf("-");
   while (subtract != -1) {
-    numbers.splice(subtract, 2, addFn(parseFloat(numbers[subtract]), parseFloat(numbers[subtract + 1])));
+    numbers.splice(subtract, 2, substractFn(parseFloat(numbers[subtract]), parseFloat(numbers[subtract + 1])));
     operators.splice(subtract, 1);
     subtract = operators.indexOf("-");
   }
@@ -87,7 +87,7 @@ clear.addEventListener("click", function() {
 });
 
 function addFn(num1, num2) {
-  return parseInt(num1)+ parseInt(num2);
+  return parseFloat(num1)+ parseFloat(num2);
 }
 
 function substractFn(num1, num2) {
