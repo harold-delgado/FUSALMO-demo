@@ -96,17 +96,17 @@ result.addEventListener("click", function() {
 
   var subtract = operators.indexOf("-");
   while (subtract != -1) {
-    numbers.splice(subtract, 2, numbers[subtract] - numbers[subtract + 1]);
+    numbers.splice(subtract, 2, parseFloat(numbers[subtract]) - parseFloat(numbers[subtract + 1]));
     operators.splice(subtract, 1);
     subtract = operators.indexOf("-");
   }
 
-  var add = operators.indexOf("+");
-  while (add != -1) {
+  var subtract = operators.indexOf("+");
     // using parseFloat is necessary, otherwise it will result in string concatenation :)
-    numbers.splice(add, 2, parseFloat(numbers[add]) + parseFloat(numbers[add + 1]));
-    operators.splice(add, 1);
-    add = operators.indexOf("+");
+  while (subtract != -1) { 
+    numbers.splice(subtract, 2, parseFloat(numbers[subtract]) + parseFloat(numbers[subtract + 1]));
+    operators.splice(subtract, 1);
+    subtract = operators.indexOf("+");
   }
 
   input.innerHTML = numbers[0]; // displaying the output
