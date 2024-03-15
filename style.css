@@ -15,7 +15,7 @@ body {
     -webkit-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    background-color: #313131;
+    background-color: #046842;
   }
   
   .input {
@@ -97,7 +97,7 @@ body {
   
   div.equal {
     display: inline-block;
-    border: 1px solid #3079ED;
+    border: 1px solid #096311;
     border-radius: 1px;
     width: 17%;
     text-align: center;
@@ -106,15 +106,15 @@ body {
     vertical-align: top;
     cursor: pointer;
     color: #FFF;
-    background-color: #4d90fe;
+    background-color: #04f524;
     transition: all .2s ease-in-out;
   }
   
   div.equal:hover {
-    background-color: #307CF9;
+    background-color: #05b32a;
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-    border-color: #1857BB;
+    border-color: #163603;
   }
   
   div.equal:active {
