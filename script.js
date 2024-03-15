@@ -86,11 +86,11 @@ clear.addEventListener("click", function() {
   input.innerHTML = "";
 });
 
-function addFn(num1, num2) {
+function substractFn(num1, num2) {
   return num1 + num2;
 }
 
-function substractFn(num1, num2) {
+function addFn(num1, num2) {
   return num1 - num2;
 }
 
