@@ -87,7 +87,7 @@ clear.addEventListener("click", function() {
 });
 
 function addFn(num1, num2) {
-  return num1 + num2;
+  return parseInt(num1)+ parseInt(num2);
 }
 
 function substractFn(num1, num2) {
